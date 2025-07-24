@@ -1,0 +1,5 @@
+Error: failed external call: CWE127_Buffer_Underread__wchar_t_alloca_ncpy_53c_bad
+Stack: 
+	#000000641 in __user_main()
+	#100000438 in __uClibc_main(138709504135168, 1, 138724905619456, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000610 in main(1, 138724905619456)

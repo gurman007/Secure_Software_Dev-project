@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x70f2389c1000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x70efb89c1000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x6fefb89c1000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x6fcfb89c1000 size=128 GiB)
+KLEE: ERROR: (location information missing) failed external call: CWE369_Divide_by_Zero__int_rand_modulo_63b_badSink
+KLEE: NOTE: now ignoring this error at this location

@@ -1,0 +1,17 @@
+KLEE: WARNING: undefined reference to variable: CWE369_Divide_by_Zero__int_rand_modulo_22_badGlobal
+KLEE: WARNING: undefined reference to variable: CWE369_Divide_by_Zero__int_rand_modulo_22_goodB2G1Global
+KLEE: WARNING: undefined reference to variable: CWE369_Divide_by_Zero__int_rand_modulo_22_goodB2G2Global
+KLEE: WARNING: undefined reference to variable: CWE369_Divide_by_Zero__int_rand_modulo_22_goodG2BGlobal
+KLEE: WARNING: undefined reference to function: CWE369_Divide_by_Zero__int_rand_modulo_22b_bad
+KLEE: WARNING: undefined reference to function: CWE369_Divide_by_Zero__int_rand_modulo_22b_good
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: __isoc99_swscanf
+KLEE: WARNING: undefined reference to function: __syscall_rt_sigaction
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: lseek64
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING: undefined reference to function: kill (UNSAFE)!
+KLEE: ERROR: Unable to load symbol(CWE369_Divide_by_Zero__int_rand_modulo_22_badGlobal) while initializing globals

@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x7e1a8eeea000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x7e180eeea000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x7d180eeea000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x7cf80eeea000 size=128 GiB)
+KLEE: ERROR: (location information missing) failed external call: CWE690_NULL_Deref_From_Return__wchar_t_malloc_64b_goodB2GSink
+KLEE: NOTE: now ignoring this error at this location

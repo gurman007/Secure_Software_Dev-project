@@ -1,0 +1,13 @@
+Error: failed external call: execve
+File: libc/unistd/exec.c
+Line: 138
+assembly.ll line: 6947
+State: 1
+Stack: 
+	#000006947 in execl(124224690425856, 124223117561856) at libc/unistd/exec.c:138
+	#100003546 in popen(123042739752960, 124223050452992) at libc/stdio/popen.c:113
+	#200000736 in goodG2B1()
+	#300000700 in CWE78_OS_Command_Injection__char_environment_popen_11_good()
+	#400000821 in __user_main()
+	#500000451 in __uClibc_main(124224627511296, 1, 124239425015808, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#600000623 in main(1, 124239425015808)

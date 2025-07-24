@@ -1,0 +1,16 @@
+KLEE: WARNING: undefined reference to function: CWE191_Integer_Underflow__char_min_sub_67b_badSink
+KLEE: WARNING: undefined reference to function: CWE191_Integer_Underflow__char_min_sub_67b_goodB2GSink
+KLEE: WARNING: undefined reference to function: CWE191_Integer_Underflow__char_min_sub_67b_goodG2BSink
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: __isoc99_swscanf
+KLEE: WARNING: undefined reference to function: __syscall_rt_sigaction
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: lseek64
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING: undefined reference to function: kill (UNSAFE)!
+KLEE: WARNING ONCE: calling external: ioctl(0, 21505, 125481274556416) at libc/termios/tcgetattr.c:43 12
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: calling external: CWE191_Integer_Underflow__char_min_sub_67b_goodG2BSink(254) at [no debug info]

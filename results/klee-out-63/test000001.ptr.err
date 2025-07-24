@@ -1,0 +1,16 @@
+Error: memory error: out of bound pointer
+File: libc/string/strcat.c
+Line: 24
+assembly.ll line: 3410
+State: 1
+Stack: 
+	#000003410 in strcat(133450975526912, 133458491719680) at libc/string/strcat.c:24
+	#100000621 in CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_41_badSink(133458491719680)
+	#200000661 in CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_41_bad()
+	#300000706 in __user_main()
+	#400000436 in __uClibc_main(134639909715968, 1, 134655176982528, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#500000608 in main(1, 134655176982528)
+Info: 
+	address: 133450975526962
+	next: object at 133413394563072 of size 4
+		MO282[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

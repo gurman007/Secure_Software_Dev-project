@@ -1,0 +1,5 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_52b_bad
+Stack: 
+	#000000641 in __user_main()
+	#100000438 in __uClibc_main(135999088783360, 1, 136014490267648, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000610 in main(1, 136014490267648)

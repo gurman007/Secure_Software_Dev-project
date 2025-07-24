@@ -1,0 +1,7 @@
+Error: failed external call: CWE191_Integer_Underflow__char_min_sub_67b_goodG2BSink
+Stack: 
+	#000000648 in goodG2B()
+	#100000632 in CWE191_Integer_Underflow__char_min_sub_67_good()
+	#200000675 in __user_main()
+	#300000437 in __uClibc_main(126676114325504, 1, 126690844721152, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000609 in main(1, 126690844721152)

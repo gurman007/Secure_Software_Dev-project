@@ -1,0 +1,4 @@
+klee --libc=uclibc ../results/CWE191_Integer_Underflow__short_fscanf_multiply_41_bad.bc
+PID: 1
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-07-06 06:18:53

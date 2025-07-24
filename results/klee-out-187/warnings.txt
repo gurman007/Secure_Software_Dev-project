@@ -1,0 +1,25 @@
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: __isoc99_swscanf
+KLEE: WARNING: undefined reference to function: __syscall_rt_sigaction
+KLEE: WARNING: undefined reference to function: close
+KLEE: WARNING: undefined reference to function: dup2
+KLEE: WARNING: undefined reference to function: execve
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: lseek64
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: pipe
+KLEE: WARNING: undefined reference to function: vfork
+KLEE: WARNING: undefined reference to function: waitpid
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING: undefined reference to function: kill (UNSAFE)!
+KLEE: WARNING ONCE: calling external: ioctl(0, 21505, 123029854851072) at libc/termios/tcgetattr.c:43 12
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: pipe(123008111579136) at libc/stdio/popen.c:86 6
+KLEE: WARNING ONCE: calling external: fcntl(11, 3) at libc/stdio/fdopen.c:17 23
+KLEE: WARNING ONCE: calling external: vfork() at libc/stdio/popen.c:100 11
+KLEE: WARNING ONCE: calling external: close(11) at libc/stdio/popen.c:102 7
+KLEE: WARNING ONCE: calling external: dup2(10, 0) at libc/stdio/popen.c:104 10
+KLEE: WARNING ONCE: calling external: execve(124224690425856, 123025559883776, 124239425015824) at libc/unistd/exec.c:138 4

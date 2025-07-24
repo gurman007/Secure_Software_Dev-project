@@ -1,0 +1,7 @@
+Error: failed external call: CWE78_OS_Command_Injection__wchar_t_file_system_51b_goodG2BSink
+Stack: 
+	#000000741 in goodG2B()
+	#100000719 in CWE78_OS_Command_Injection__wchar_t_file_system_51_good()
+	#200000751 in __user_main()
+	#300000451 in __uClibc_main(131765209501696, 1, 131780476768256, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000623 in main(1, 131780476768256)

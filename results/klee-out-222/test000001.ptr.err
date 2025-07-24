@@ -1,0 +1,15 @@
+Error: memory error: out of bound pointer
+File: libc/string/memmove.c
+Line: 42
+assembly.ll line: 12519
+State: 1
+Stack: 
+	#000012519 in memmove(138576960987136, 138582329696256, 18446744073709537395) at libc/string/memmove.c:42
+	#100000674 in CWE194_Unexpected_Sign_Extension__rand_memmove_10_bad()
+	#200000815 in __user_main()
+	#300000437 in __uClibc_main(139763747692544, 1, 139779014959104, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000609 in main(1, 139779014959104)
+Info: 
+	address: 138582329696356
+	next: object at 138534548185088 of size 2
+		MO6660[2] allocated at CWE194_Unexpected_Sign_Extension__rand_memmove_10_bad():  %1 = alloca i16, align 2

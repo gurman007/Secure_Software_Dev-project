@@ -1,0 +1,7 @@
+Error: failed external call: CWE134_Uncontrolled_Format_String__wchar_t_environment_snprintf_64b_goodG2BSink
+Stack: 
+	#000000674 in goodG2B()
+	#100000658 in CWE134_Uncontrolled_Format_String__wchar_t_environment_snprintf_64_good()
+	#200000723 in __user_main()
+	#300000438 in __uClibc_main(129056753287168, 1, 129072020553728, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000610 in main(1, 129072020553728)

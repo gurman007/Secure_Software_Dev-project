@@ -1,0 +1,6 @@
+Error: failed external call: CWE369_Divide_by_Zero__int_rand_modulo_63b_badSink
+Stack: 
+	#000000646 in CWE369_Divide_by_Zero__int_rand_modulo_63_bad()
+	#100000714 in __user_main()
+	#200000436 in __uClibc_main(124177883074560, 1, 124192613470208, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000608 in main(1, 124192613470208)

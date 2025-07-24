@@ -1,0 +1,7 @@
+Error: failed external call: CWE690_NULL_Deref_From_Return__wchar_t_malloc_64b_goodB2GSink
+Stack: 
+	#000000643 in goodB2G()
+	#100000631 in CWE690_NULL_Deref_From_Return__wchar_t_malloc_64_good()
+	#200000653 in __user_main()
+	#300000436 in __uClibc_main(138644177199104, 1, 138659511574528, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 138659511574528)

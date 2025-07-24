@@ -1,0 +1,19 @@
+KLEE: WARNING: undefined reference to function: CWE401_Memory_Leak__int64_t_calloc_22_badSink
+KLEE: WARNING: undefined reference to function: CWE401_Memory_Leak__int64_t_calloc_22_goodB2G1Sink
+KLEE: WARNING: undefined reference to function: CWE401_Memory_Leak__int64_t_calloc_22_goodB2G2Sink
+KLEE: WARNING: undefined reference to function: CWE401_Memory_Leak__int64_t_calloc_22_goodG2BSink
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: __isoc99_swscanf
+KLEE: WARNING: undefined reference to function: __syscall_rt_sigaction
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: lseek64
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING: undefined reference to function: kill (UNSAFE)!
+KLEE: WARNING ONCE: calling external: ioctl(0, 21505, 134418348556288) at libc/termios/tcgetattr.c:43 12
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: printf(135612504653824, 5) at [no debug info]
+KLEE: WARNING ONCE: calling external: CWE401_Memory_Leak__int64_t_calloc_22_goodB2G1Sink(135026086428672) at [no debug info]

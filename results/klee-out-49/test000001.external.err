@@ -1,0 +1,5 @@
+Error: failed external call: CWE190_Integer_Overflow__unsigned_int_fscanf_multiply_54d_bad
+Stack: 
+	#000000652 in __user_main()
+	#100000438 in __uClibc_main(133037076803584, 1, 133052411179008, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000610 in main(1, 133052411179008)

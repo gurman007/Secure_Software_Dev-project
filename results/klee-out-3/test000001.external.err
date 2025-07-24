@@ -1,0 +1,7 @@
+Error: failed external call: CWE127_Buffer_Underread__CWE839_fgets_64b_goodG2BSink
+Stack: 
+	#000000692 in goodG2B()
+	#100000681 in CWE127_Buffer_Underread__CWE839_fgets_64_good()
+	#200000733 in __user_main()
+	#300000450 in __uClibc_main(125001797996544, 1, 125016998154240, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000622 in main(1, 125016998154240)

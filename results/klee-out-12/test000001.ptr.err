@@ -1,0 +1,15 @@
+Error: memory error: out of bound pointer
+File: libc/string/memcpy.c
+Line: 29
+assembly.ll line: 2771
+State: 1
+Stack: 
+	#000002771 in memcpy(125722497101824, 125724644585472, 800) at libc/string/memcpy.c:29
+	#100000626 in CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_memcpy_15_bad()
+	#200000706 in __user_main()
+	#300000436 in __uClibc_main(126897472647168, 1, 126912739913728, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 126912739913728)
+Info: 
+	address: 125722497102224
+	next: object at 125670957494272 of size 4
+		MO281[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

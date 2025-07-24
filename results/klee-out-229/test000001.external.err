@@ -1,0 +1,7 @@
+Error: failed external call: CWE401_Memory_Leak__int64_t_calloc_22_goodB2G1Sink
+Stack: 
+	#000000694 in goodB2G1()
+	#100000663 in CWE401_Memory_Leak__int64_t_calloc_22_good()
+	#200000757 in __user_main()
+	#300000440 in __uClibc_main(135612785672192, 1, 135627918721024, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000612 in main(1, 135627918721024)

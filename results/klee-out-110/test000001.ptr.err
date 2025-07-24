@@ -1,0 +1,15 @@
+Error: memory error: out of bound pointer
+File: libc/string/strncpy.c
+Line: 29
+assembly.ll line: 3722
+State: 1
+Stack: 
+	#000003722 in strncpy(131129426558976, 131134795268096, 18446744073709551615) at libc/string/strncpy.c:29
+	#100000655 in CWE195_Signed_to_Unsigned_Conversion_Error__fgets_strncpy_21_bad()
+	#200000851 in __user_main()
+	#300000454 in __uClibc_main(132316280373248, 1, 132331480530944, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000626 in main(1, 132331480530944)
+Info: 
+	address: 131129426559076
+	next: object at 131087013756928 of size 4
+		MO6743[4] allocated at CWE195_Signed_to_Unsigned_Conversion_Error__fgets_strncpy_21_bad():  %1 = alloca i32, align 4

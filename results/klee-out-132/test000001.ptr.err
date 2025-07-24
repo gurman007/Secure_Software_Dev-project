@@ -1,0 +1,19 @@
+Error: memory error: out of bound pointer
+File: libc/string/strnlen.c
+Line: 30
+assembly.ll line: 10715
+State: 1
+Stack: 
+	#000010715 in wcsnlen(136447321231360, 18446744073709551615) at libc/string/strnlen.c:30
+	#100005295 in _do_one_spec(137640785268824, 136443026264064, 136396318494720) at libc/stdio/_vfprintf.c:1702
+	#200004439 in vfwprintf(137640785268824, 137626826625024, 136423698911232) at libc/stdio/_vfprintf.c:1919
+	#300003337 in wprintf(137626826625024) at libc/stdio/wprintf.c:20
+	#400000638 in printWLine(136447321231360)
+	#500000624 in CWE126_Buffer_Overread__CWE170_wchar_t_strncpy_06_bad()
+	#600000692 in __user_main()
+	#700000436 in __uClibc_main(137625048240128, 1, 137639711526912, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#800000608 in main(1, 137639711526912)
+Info: 
+	address: 136447321231760
+	next: object at 136389339172864 of size 1
+		MO11445[1] allocated at _do_one_spec():  %20 = alloca i8, align 1

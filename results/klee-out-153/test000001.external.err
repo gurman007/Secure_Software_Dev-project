@@ -1,0 +1,7 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_66b_goodG2BSink
+Stack: 
+	#000000654 in goodG2B()
+	#100000635 in CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_66_good()
+	#200000664 in __user_main()
+	#300000436 in __uClibc_main(133196283592704, 1, 133210946879488, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 133210946879488)

@@ -1,0 +1,7 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x7a43ccac8000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x7a414cac8000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x79414cac8000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x79214cac8000 size=128 GiB)

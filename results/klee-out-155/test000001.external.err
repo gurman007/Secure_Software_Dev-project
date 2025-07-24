@@ -1,0 +1,7 @@
+Error: failed external call: CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_66b_goodG2BSink
+Stack: 
+	#000000669 in goodG2B()
+	#100000644 in CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_66_good()
+	#200000679 in __user_main()
+	#300000436 in __uClibc_main(138029350535168, 1, 138044684910592, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 138044684910592)

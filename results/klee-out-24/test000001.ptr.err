@@ -1,0 +1,20 @@
+Error: memory error: out of bound pointer
+File: libc/string/memcpy.c
+Line: 29
+assembly.ll line: 2778
+State: 1
+Stack: 
+	#000002778 in memcpy(131309467328512, 131311614812160, 99) at libc/string/memcpy.c:29
+	#100013032 in __stdio_fwrite(131311614812160, 99, 131318057263104) at libc/stdio/_fwrite.c:39
+	#200011138 in _do_one_spec.120(131318057263104, 131313762295808, 131273496977408) at libc/stdio/_vfprintf.c:1817
+	#300010211 in vfprintf(131318057263104, 132497562656768, 131297656168448) at libc/stdio/_vfprintf.c:1919
+	#400005916 in vsnprintf(131309467328512, 100, 132497562656768, 131297656168448) at libc/stdio/vsnprintf.c:64
+	#500003371 in snprintf(131309467328512, 100, 132497562656768) at libc/stdio/snprintf.c:25
+	#600000636 in CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_snprintf_04_bad()
+	#700000721 in __user_main()
+	#800000443 in __uClibc_main(132498938388480, 1, 132513668784128, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#900000615 in main(1, 132513668784128)
+Info: 
+	address: 131309467328562
+	next: object at 131263296430080 of size 1
+		MO9974[1] allocated at _do_one_spec.120():  %18 = alloca i8, align 1

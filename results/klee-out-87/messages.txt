@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x7eb0fb9dc000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x7eae7b9dc000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x7dae7b9dc000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x7d8e7b9dc000 size=128 GiB)
+KLEE: ERROR: (location information missing) memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location

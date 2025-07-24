@@ -1,0 +1,7 @@
+Error: failed external call: CWE190_Integer_Overflow__char_fscanf_postinc_66b_goodG2BSink
+Stack: 
+	#000000653 in goodG2B()
+	#100000638 in CWE190_Integer_Overflow__char_fscanf_postinc_66_good()
+	#200000680 in __user_main()
+	#300000441 in __uClibc_main(133306687111168, 1, 133321954377728, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000613 in main(1, 133321954377728)

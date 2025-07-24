@@ -1,0 +1,7 @@
+Error: failed external call: CWE195_Signed_to_Unsigned_Conversion_Error__fscanf_malloc_54b_goodG2BSink
+Stack: 
+	#000000644 in goodG2B()
+	#100000634 in CWE195_Signed_to_Unsigned_Conversion_Error__fscanf_malloc_54_good()
+	#200000654 in __user_main()
+	#300000441 in __uClibc_main(135900858114048, 1, 135916192489472, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000613 in main(1, 135916192489472)

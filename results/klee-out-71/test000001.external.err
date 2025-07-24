@@ -1,0 +1,6 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memcpy_68b_badSink
+Stack: 
+	#000000626 in CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memcpy_68_bad()
+	#100000660 in __user_main()
+	#200000438 in __uClibc_main(131011481661440, 1, 131026144948224, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000610 in main(1, 131026144948224)

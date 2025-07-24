@@ -1,0 +1,10 @@
+Error: free of alloca
+Stack: 
+	#000000627 in CWE590_Free_Memory_Not_on_Heap__free_char_declare_06_bad()
+	#100000732 in __user_main()
+	#200000437 in __uClibc_main(127435340410880, 1, 127450137915392, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000609 in main(1, 127450137915392)
+Info: 
+	address: 126253452652544
+	next: object at 126208355495936 of size 4
+		MO282[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

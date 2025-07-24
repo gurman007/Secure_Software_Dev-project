@@ -1,0 +1,6 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_loop_53b_badSink
+Stack: 
+	#000000629 in CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_loop_53_bad()
+	#100000668 in __user_main()
+	#200000436 in __uClibc_main(125741810679808, 1, 125756473966592, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000608 in main(1, 125756473966592)

@@ -1,0 +1,10 @@
+Error: free of global
+Stack: 
+	#000000662 in CWE590_Free_Memory_Not_on_Heap__free_int_static_32_bad()
+	#100000778 in __user_main()
+	#200000438 in __uClibc_main(128884071018496, 1, 128899338285056, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000610 in main(1, 128899338285056)
+Info: 
+	address: 128900412026880
+	next: object at 127657555865600 of size 4
+		MO281[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

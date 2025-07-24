@@ -1,0 +1,7 @@
+Error: failed external call: CWE197_Numeric_Truncation_Error__int_fscanf_to_char_68b_goodG2BSink
+Stack: 
+	#000000648 in goodG2B()
+	#100000637 in CWE197_Numeric_Truncation_Error__int_fscanf_to_char_68_good()
+	#200000658 in __user_main()
+	#300000443 in __uClibc_main(126276528726016, 1, 126291863101440, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000615 in main(1, 126291863101440)

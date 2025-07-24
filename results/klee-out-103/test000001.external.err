@@ -1,0 +1,7 @@
+Error: failed external call: CWE190_Integer_Overflow__short_rand_multiply_51b_goodG2BSink
+Stack: 
+	#000000667 in goodG2B()
+	#100000656 in CWE190_Integer_Overflow__short_rand_multiply_51_good()
+	#200000719 in __user_main()
+	#300000436 in __uClibc_main(133005458722816, 1, 133020189118464, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 133020189118464)

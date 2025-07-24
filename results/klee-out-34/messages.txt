@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x771b3d576000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x7718bd576000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x7618bd576000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x75f8bd576000 size=128 GiB)
+KLEE: ERROR: (location information missing) failed external call: CWE127_Buffer_Underread__char_alloca_memcpy_67a_bad
+KLEE: NOTE: now ignoring this error at this location

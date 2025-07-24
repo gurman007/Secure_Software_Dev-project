@@ -1,0 +1,5 @@
+Error: failed external call: CWE369_Divide_by_Zero__int_fscanf_modulo_64a_bad
+Stack: 
+	#000000671 in __user_main()
+	#100000443 in __uClibc_main(126493175762944, 1, 126508443029504, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000615 in main(1, 126508443029504)

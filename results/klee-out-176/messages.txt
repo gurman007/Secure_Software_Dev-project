@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: SAT solver: MiniSat
+KLEE: Deterministic allocator: Using quarantine queue size 8
+KLEE: Deterministic allocator: globals (start-address=0x7d7507570000 size=10 GiB)
+KLEE: Deterministic allocator: constants (start-address=0x7d7287570000 size=10 GiB)
+KLEE: Deterministic allocator: heap (start-address=0x7c7287570000 size=1024 GiB)
+KLEE: Deterministic allocator: stack (start-address=0x7c5287570000 size=128 GiB)
+KLEE: ERROR: (location information missing) failed external call: CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_52b_badSink
+KLEE: NOTE: now ignoring this error at this location

@@ -1,0 +1,7 @@
+Error: failed external call: CWE590_Free_Memory_Not_on_Heap__free_struct_declare_52b_goodG2BSink
+Stack: 
+	#000000710 in goodG2B()
+	#100000656 in CWE590_Free_Memory_Not_on_Heap__free_struct_declare_52_good()
+	#200000742 in __user_main()
+	#300000437 in __uClibc_main(136133168791552, 1, 136148436058112, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000609 in main(1, 136148436058112)

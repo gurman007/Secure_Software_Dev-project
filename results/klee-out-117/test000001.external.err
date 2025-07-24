@@ -1,0 +1,14 @@
+Error: failed external call: __syscall_rt_sigaction
+File: libc/signal/sigaction.c
+Line: 58
+assembly.ll line: 3199
+State: 1
+Stack: 
+	#000003199 in __libc_sigaction(3, 138842417811456, 138848860262400) at libc/signal/sigaction.c:58
+	#100004459 in __bsd_signal(3, 1) at libc/signal/signal.c:49
+	#200003804 in __libc_system(138847786520576) at libc/stdlib/system.c:36
+	#300000762 in goodG2B1()
+	#400000739 in CWE78_OS_Command_Injection__char_file_system_04_good()
+	#500000810 in __user_main()
+	#600000464 in __uClibc_main(140029741387776, 1, 140044471783424, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#700000636 in main(1, 140044471783424)

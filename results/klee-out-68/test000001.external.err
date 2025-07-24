@@ -1,0 +1,7 @@
+Error: failed external call: CWE191_Integer_Underflow__int_rand_multiply_68b_goodG2BSink
+Stack: 
+	#000000671 in goodG2B()
+	#100000659 in CWE191_Integer_Underflow__int_rand_multiply_68_good()
+	#200000723 in __user_main()
+	#300000439 in __uClibc_main(125572588691456, 1, 125587319087104, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000611 in main(1, 125587319087104)

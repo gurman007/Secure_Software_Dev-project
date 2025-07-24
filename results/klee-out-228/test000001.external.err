@@ -1,0 +1,6 @@
+Error: failed external call: CWE401_Memory_Leak__int64_t_calloc_22_badSink
+Stack: 
+	#000000641 in CWE401_Memory_Leak__int64_t_calloc_22_bad()
+	#100000757 in __user_main()
+	#200000440 in __uClibc_main(124648208027648, 1, 124663341076480, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000612 in main(1, 124663341076480)

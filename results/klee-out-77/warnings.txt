@@ -1,0 +1,19 @@
+KLEE: WARNING: undefined reference to function: CWE134_Uncontrolled_Format_String__wchar_t_console_vprintf_64b_badSink
+KLEE: WARNING: undefined reference to function: CWE134_Uncontrolled_Format_String__wchar_t_console_vprintf_64b_goodB2GSink
+KLEE: WARNING: undefined reference to function: CWE134_Uncontrolled_Format_String__wchar_t_console_vprintf_64b_goodG2BSink
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: __isoc99_swscanf
+KLEE: WARNING: undefined reference to function: __syscall_rt_sigaction
+KLEE: WARNING: undefined reference to function: fcntl
+KLEE: WARNING: undefined reference to function: fstat
+KLEE: WARNING: undefined reference to function: ioctl
+KLEE: WARNING: undefined reference to function: lseek64
+KLEE: WARNING: undefined reference to function: open
+KLEE: WARNING: undefined reference to function: read
+KLEE: WARNING: undefined reference to function: write
+KLEE: WARNING: undefined reference to function: kill (UNSAFE)!
+KLEE: WARNING ONCE: calling external: ioctl(0, 21505, 133208900952064) at libc/termios/tcgetattr.c:43 12
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: calling external: read(0, 133168098762752, 1) at libc/stdio/_READ.c:47 11
+KLEE: WARNING ONCE: calling external: printf(134402364989440, 134404244037632) at [no debug info]
+KLEE: WARNING ONCE: calling external: CWE134_Uncontrolled_Format_String__wchar_t_console_vprintf_64b_badSink(133185815502848) at [no debug info]

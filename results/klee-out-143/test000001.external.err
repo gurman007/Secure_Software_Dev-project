@@ -1,0 +1,7 @@
+Error: failed external call: CWE369_Divide_by_Zero__float_zero_67b_goodG2BSink
+Stack: 
+	#000000648 in goodG2B()
+	#100000632 in CWE369_Divide_by_Zero__float_zero_67_good()
+	#200000675 in __user_main()
+	#300000437 in __uClibc_main(129880407539712, 1, 129895137935360, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000609 in main(1, 129895137935360)

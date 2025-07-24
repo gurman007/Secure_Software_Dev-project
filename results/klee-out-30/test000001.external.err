@@ -1,0 +1,5 @@
+Error: failed external call: CWE190_Integer_Overflow__char_rand_square_53a_bad
+Stack: 
+	#000000722 in __user_main()
+	#100000438 in __uClibc_main(134039627862016, 1, 134054358257664, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000610 in main(1, 134054358257664)

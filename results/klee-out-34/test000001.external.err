@@ -1,0 +1,5 @@
+Error: failed external call: CWE127_Buffer_Underread__char_alloca_memcpy_67a_bad
+Stack: 
+	#000000680 in __user_main()
+	#100000439 in __uClibc_main(130950521905152, 1, 130965856280576, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000611 in main(1, 130965856280576)

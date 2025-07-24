@@ -1,0 +1,10 @@
+Error: memory error: out of bound pointer
+Stack: 
+	#000000659 in CWE126_Buffer_Overread__char_declare_loop_10_bad()
+	#100000848 in __user_main()
+	#200000437 in __uClibc_main(139500351614976, 1, 139515082010624, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000609 in main(1, 139515082010624)
+Info: 
+	address: 138310880555058
+	next: object at 138273299591168 of size 4
+		MO281[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

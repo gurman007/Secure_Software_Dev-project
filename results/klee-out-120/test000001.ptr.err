@@ -1,0 +1,10 @@
+Error: memory error: out of bound pointer
+Stack: 
+	#000000631 in CWE457_Use_of_Uninitialized_Variable__struct_pointer_11_bad()
+	#100000897 in __user_main()
+	#200000437 in __uClibc_main(132428332228608, 1, 132443465277440, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000609 in main(1, 132443465277440)
+Info: 
+	address: 12370169555311111083
+	next: object at 131201682857984 of size 4
+		MO283[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

@@ -1,0 +1,6 @@
+Error: failed external call: CWE134_Uncontrolled_Format_String__char_environment_fprintf_68b_badSink
+Stack: 
+	#000000650 in CWE134_Uncontrolled_Format_String__char_environment_fprintf_68_bad()
+	#100000727 in __user_main()
+	#200000441 in __uClibc_main(138762364616704, 1, 138777631883264, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000613 in main(1, 138777631883264)

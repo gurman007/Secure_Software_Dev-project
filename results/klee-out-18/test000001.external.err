@@ -1,0 +1,6 @@
+Error: failed external call: CWE190_Integer_Overflow__short_max_add_67b_badSink
+Stack: 
+	#000000624 in CWE190_Integer_Overflow__short_max_add_67_bad()
+	#100000675 in __user_main()
+	#200000437 in __uClibc_main(139952886038528, 1, 139967616434176, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000609 in main(1, 139967616434176)

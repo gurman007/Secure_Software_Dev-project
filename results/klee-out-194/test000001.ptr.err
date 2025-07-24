@@ -1,0 +1,10 @@
+Error: memory error: double free
+Stack: 
+	#000000633 in CWE415_Double_Free__malloc_free_struct_06_bad()
+	#100000744 in __user_main()
+	#200000436 in __uClibc_main(134954279342080, 1, 134969546608640, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000608 in main(1, 134969546608640)
+Info: 
+	address: 134367714316288
+	next: object at 133727764189184 of size 4
+		MO282[4] allocated at __uClibc_main():  %9 = alloca i32, align 4

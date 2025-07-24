@@ -1,0 +1,5 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memmove_52c_bad
+Stack: 
+	#000000686 in __user_main()
+	#100000440 in __uClibc_main(140250188165120, 1, 140264851451904, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000612 in main(1, 140264851451904)

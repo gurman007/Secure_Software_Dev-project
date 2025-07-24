@@ -1,0 +1,5 @@
+Error: failed external call: CWE401_Memory_Leak__int64_t_calloc_63a_bad
+Stack: 
+	#000000718 in __user_main()
+	#100000438 in __uClibc_main(127228288040960, 1, 127243488198656, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000610 in main(1, 127243488198656)

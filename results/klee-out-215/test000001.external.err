@@ -1,0 +1,7 @@
+Error: failed external call: CWE194_Unexpected_Sign_Extension__rand_strncpy_63b_goodG2BSink
+Stack: 
+	#000000664 in goodG2B()
+	#100000655 in CWE194_Unexpected_Sign_Extension__rand_strncpy_63_good()
+	#200000674 in __user_main()
+	#300000436 in __uClibc_main(128994533572608, 1, 129009196859392, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#400000608 in main(1, 129009196859392)

@@ -1,0 +1,22 @@
+klee --libc=uclibc ../results/CWE126_Buffer_Overread__CWE129_large_64a_bad.bc
+PID: 1
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-07-06 06:11:51
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2025-07-06 06:11:52
+Elapsed: 00:00:01
+KLEE: done: explored paths = 1
+KLEE: done: total queries = 0
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 0
+KLEE: done: query cex = 0
+
+KLEE: done: total instructions = 12381
+KLEE: done: completed paths = 0
+KLEE: done: partially completed paths = 1
+KLEE: done: generated tests = 1

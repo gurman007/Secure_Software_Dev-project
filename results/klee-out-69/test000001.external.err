@@ -1,0 +1,6 @@
+Error: failed external call: CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_66b_badSink
+Stack: 
+	#000000631 in CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_66_bad()
+	#100000672 in __user_main()
+	#200000436 in __uClibc_main(129140231761920, 1, 129154895048704, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000608 in main(1, 129154895048704)
